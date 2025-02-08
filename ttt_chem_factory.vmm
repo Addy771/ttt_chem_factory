@@ -1,0 +1,43 @@
+Info
+{
+	"NextInternalID" "8"
+}
+Maps
+{
+	VMF
+	{
+		"Name" "Admin building"
+		"File" "admin_building.vmf"
+		"InternalID" "2"
+	}
+	VMF
+	{
+		"Name" "Shed"
+		"File" "shed.vmf"
+		"InternalID" "3"
+	}
+	VMF
+	{
+		"Name" "tank"
+		"File" "Tank.vmf"
+		"InternalID" "4"
+	}
+	VMF
+	{
+		"Name" "Tunnel"
+		"File" "tunnel.vmf"
+		"InternalID" "5"
+	}
+	VMF
+	{
+		"Name" "Vent"
+		"File" "Vent.vmf"
+		"InternalID" "6"
+	}
+	VMF
+	{
+		"Name" "Main Area"
+		"File" "main_area.vmf"
+		"InternalID" "7"
+	}
+}
