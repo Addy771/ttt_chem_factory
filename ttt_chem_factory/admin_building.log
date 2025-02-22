@@ -1,0 +1,394 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading S:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-694.00 -401.00 -1835.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27668 bytes)
+Error! prop_static using model "models/props_lab/monitor02.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_lab/monitor02.mdl"!
+Error! prop_static using model "models/props_lab/partsbin01.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_lab/partsbin01.mdl"!
+Error! prop_static using model "models/props_interiors/furniture_couch01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_interiors/furniture_couch01a.mdl"!
+Error! prop_static using model "models/props_interiors/furniture_desk01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_interiors/furniture_desk01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 161 texinfos to 105
+Reduced 8 texdatas to 7 (189 bytes to 167)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+PREP OK
+No vis information, direct lighting only.
+828 faces
+1 degenerate faces
+216727 square feet [31208738.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0025 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 76/16384         912/196608   ( 0.5%) 
+brushsides             460/163840       3680/1310720  ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes              1269/65536       15228/786432   ( 1.9%) 
+nodes                  543/65536       17376/2097152  ( 0.8%) 
+texinfos               105/16384        7560/1179648  ( 0.6%) 
+texdata                  7/8192          224/262144   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  828/65536       46368/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              274/65536       15344/3670016  ( 0.4%) 
+leaves                 545/65536       17440/2097152  ( 0.8%) 
+leaffaces              916/65536        1832/131072   ( 1.4%) 
+leafbrushes            425/65536         850/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4848/512000      19392/2048000  ( 0.9%) 
+edges                 2651/256000      10604/1024000  ( 1.0%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             66/32768         660/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1002/65536        2004/131072   ( 1.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      878296/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         973/393216   ( 0.2%) 
+LDR ambient table      545/65536        2180/262144   ( 0.8%) 
+HDR ambient table      545/65536        2180/262144   ( 0.8%) 
+LDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+HDR leaf ambient       545/65536       15260/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]       27668/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2095
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+PREP OK
+No vis information, direct lighting only.
+828 faces
+1 degenerate faces
+216727 square feet [31208738.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 76/16384         912/196608   ( 0.5%) 
+brushsides             460/163840       3680/1310720  ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes              1269/65536       15228/786432   ( 1.9%) 
+nodes                  543/65536       17376/2097152  ( 0.8%) 
+texinfos               105/16384        7560/1179648  ( 0.6%) 
+texdata                  7/8192          224/262144   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  828/65536       46368/3670016  ( 1.3%) 
+hdr faces              828/65536       46368/3670016  ( 1.3%) 
+origfaces              274/65536       15344/3670016  ( 0.4%) 
+leaves                 545/65536       17440/2097152  ( 0.8%) 
+leaffaces              916/65536        1832/131072   ( 1.4%) 
+leafbrushes            425/65536         850/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4848/512000      19392/2048000  ( 0.9%) 
+edges                 2651/256000      10604/1024000  ( 1.0%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          3/8192          264/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             66/32768         660/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1002/65536        2004/131072   ( 1.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      878296/0        ( 0.0%) 
+HDR lightdata         [variable]      878296/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         973/393216   ( 0.2%) 
+LDR ambient table      545/65536        2180/262144   ( 0.8%) 
+HDR ambient table      545/65536        2180/262144   ( 0.8%) 
+LDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+HDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]       27668/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2095
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+Loading S:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light (-694.00 -401.00 -1835.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (27668 bytes)
+Error! prop_static using model "models/props_lab/monitor02.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_lab/monitor02.mdl"!
+Error! prop_static using model "models/props_lab/partsbin01.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_lab/partsbin01.mdl"!
+Error! prop_static using model "models/props_interiors/furniture_couch01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_interiors/furniture_couch01a.mdl"!
+Error! prop_static using model "models/props_interiors/furniture_desk01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model STATIC "models/props_interiors/furniture_desk01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 161 texinfos to 105
+Reduced 8 texdatas to 7 (189 bytes to 167)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+0 seconds elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+PREP OK
+No vis information, direct lighting only.
+828 faces
+1 degenerate faces
+216727 square feet [31208738.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 76/16384         912/196608   ( 0.5%) 
+brushsides             460/163840       3680/1310720  ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes              1269/65536       15228/786432   ( 1.9%) 
+nodes                  543/65536       17376/2097152  ( 0.8%) 
+texinfos               105/16384        7560/1179648  ( 0.6%) 
+texdata                  7/8192          224/262144   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  828/65536       46368/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              274/65536       15344/3670016  ( 0.4%) 
+leaves                 545/65536       17440/2097152  ( 0.8%) 
+leaffaces              916/65536        1832/131072   ( 1.4%) 
+leafbrushes            425/65536         850/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4848/512000      19392/2048000  ( 0.9%) 
+edges                 2651/256000      10604/1024000  ( 1.0%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             66/32768         660/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1002/65536        2004/131072   ( 1.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      878296/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1084/393216   ( 0.3%) 
+LDR ambient table      545/65536        2180/262144   ( 0.8%) 
+HDR ambient table      545/65536        2180/262144   ( 0.8%) 
+LDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+HDR leaf ambient       545/65536       15260/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]       27668/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2095
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+PREP OK
+No vis information, direct lighting only.
+828 faces
+1 degenerate faces
+216727 square feet [31208738.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/4096           48/196608   ( 0.0%) 
+brushes                 76/16384         912/196608   ( 0.5%) 
+brushsides             460/163840       3680/1310720  ( 0.3%) 
+planes                 336/65536        6720/1310720  ( 0.5%) 
+vertexes              1269/65536       15228/786432   ( 1.9%) 
+nodes                  543/65536       17376/2097152  ( 0.8%) 
+texinfos               105/16384        7560/1179648  ( 0.6%) 
+texdata                  7/8192          224/262144   ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  828/65536       46368/3670016  ( 1.3%) 
+hdr faces              828/65536       46368/3670016  ( 1.3%) 
+origfaces              274/65536       15344/3670016  ( 0.4%) 
+leaves                 545/65536       17440/2097152  ( 0.8%) 
+leaffaces              916/65536        1832/131072   ( 1.4%) 
+leafbrushes            425/65536         850/131072   ( 0.6%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4848/512000      19392/2048000  ( 0.9%) 
+edges                 2651/256000      10604/1024000  ( 1.0%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          3/8192          264/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             66/32768         660/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1002/65536        2004/131072   ( 1.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]      878296/0        ( 0.0%) 
+HDR lightdata         [variable]      878296/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1084/393216   ( 0.3%) 
+LDR ambient table      545/65536        2180/262144   ( 0.8%) 
+HDR ambient table      545/65536        2180/262144   ( 0.8%) 
+LDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+HDR leaf ambient       279/65536        7812/1835008  ( 0.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      105687/0        ( 0.0%) 
+physics               [variable]       27668/4194304  ( 0.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2095
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory\admin_building.bsp
+1 second elapsed
