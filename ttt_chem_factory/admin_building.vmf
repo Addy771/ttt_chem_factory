@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10273"
-	"mapversion" "23"
+	"mapversion" "24"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "1"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6027,9 +6027,15 @@ entity
 entity
 {
 	"id" "4312"
-	"classname" "func_detail"
-	"maxdxlevel" "0"
-	"mindxlevel" "0"
+	"classname" "trigger_hurt"
+	"damage" "10"
+	"damagecap" "20"
+	"damagemodel" "0"
+	"damagetype" "0"
+	"nodmgforce" "0"
+	"origin" "-314 -806 -2482"
+	"spawnflags" "0"
+	"StartDisabled" "0"
 	solid
 	{
 		"id" "3632"
@@ -6037,7 +6043,7 @@ entity
 		{
 			"id" "1053"
 			"plane" "(-354 -720 -2428) (-274 -720 -2428) (-274 -892 -2428)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -6048,7 +6054,7 @@ entity
 		{
 			"id" "1052"
 			"plane" "(-354 -892 -2536) (-274 -892 -2536) (-274 -720 -2536)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -6059,7 +6065,7 @@ entity
 		{
 			"id" "1051"
 			"plane" "(-354 -720 -2428) (-354 -892 -2428) (-354 -892 -2536)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6070,7 +6076,7 @@ entity
 		{
 			"id" "1050"
 			"plane" "(-274 -720 -2536) (-274 -892 -2536) (-274 -892 -2428)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6081,7 +6087,7 @@ entity
 		{
 			"id" "1049"
 			"plane" "(-274 -720 -2428) (-354 -720 -2428) (-354 -720 -2536)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6092,7 +6098,7 @@ entity
 		{
 			"id" "1048"
 			"plane" "(-274 -892 -2536) (-354 -892 -2536) (-354 -892 -2428)"
-			"material" "TOOLS/TOOLSTRIGGER"
+			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -6101,14 +6107,14 @@ entity
 		}
 		editor
 		{
-			"color" "0 180 0"
+			"color" "220 30 220"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
 	}
 	editor
 	{
-		"color" "0 180 0"
+		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 7500]"
