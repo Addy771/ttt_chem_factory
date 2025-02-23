@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10273"
-	"mapversion" "10"
+	"mapversion" "11"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "1"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -2806,7 +2806,7 @@ entity
 	"model" "models/maxofs2d/thruster_propeller.mdl"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-1054 -854 -2186.27"
+	"origin" "-1248 -720 -2240"
 	editor
 	{
 		"color" "255 255 0"
