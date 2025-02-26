@@ -7651,3 +7651,2379 @@ Level flags = 3
 Total triangle count: 14698
 Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
 5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (545565 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 964 texinfos to 744
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5354 faces
+1 degenerate faces
+1003064 square feet [144441328.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+87 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0152 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                465/16384        5580/196608   ( 2.8%) 
+brushsides            3991/163840      31928/1310720  ( 2.4%) 
+planes                4368/65536       87360/1310720  ( 6.7%) 
+vertexes              8305/65536       99660/786432   (12.7%) 
+nodes                 3006/65536       96192/2097152  ( 4.6%) 
+texinfos               744/16384       53568/1179648  ( 4.5%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5354/65536      299824/3670016  ( 8.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2195/65536      122920/3670016  ( 3.3%) 
+leaves                3017/65536       96544/2097152  ( 4.6%) 
+leaffaces             6575/65536       13150/131072   (10.0%) 
+leafbrushes           1919/65536        3838/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34769/512000     139076/2048000  ( 6.8%) 
+edges                19218/256000      76872/1024000  ( 7.5%) 
+LDR worldlights         87/8192         7656/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            521/32768        5210/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8001/65536       16002/131072   (12.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6488664/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      132471/393216   (33.7%) 
+LDR ambient table     3017/65536       12068/262144   ( 4.6%) 
+HDR ambient table     3017/65536       12068/262144   ( 4.6%) 
+LDR leaf ambient     12184/65536      341152/1835008  (18.6%) 
+HDR leaf ambient      3017/65536       84476/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18810    ( 0.0%) 
+pakfile               [variable]      989978/0        ( 0.0%) 
+physics               [variable]      545565/4194304  (13.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14686
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5354 faces
+1 degenerate faces
+1003064 square feet [144441328.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+87 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0148 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                465/16384        5580/196608   ( 2.8%) 
+brushsides            3991/163840      31928/1310720  ( 2.4%) 
+planes                4368/65536       87360/1310720  ( 6.7%) 
+vertexes              8305/65536       99660/786432   (12.7%) 
+nodes                 3006/65536       96192/2097152  ( 4.6%) 
+texinfos               744/16384       53568/1179648  ( 4.5%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5354/65536      299824/3670016  ( 8.2%) 
+hdr faces             5354/65536      299824/3670016  ( 8.2%) 
+origfaces             2195/65536      122920/3670016  ( 3.3%) 
+leaves                3017/65536       96544/2097152  ( 4.6%) 
+leaffaces             6575/65536       13150/131072   (10.0%) 
+leafbrushes           1919/65536        3838/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34769/512000     139076/2048000  ( 6.8%) 
+edges                19218/256000      76872/1024000  ( 7.5%) 
+LDR worldlights         87/8192         7656/720896   ( 1.1%) 
+HDR worldlights         87/8192         7656/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            521/32768        5210/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8001/65536       16002/131072   (12.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6488664/0        ( 0.0%) 
+HDR lightdata         [variable]     6488664/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      132471/393216   (33.7%) 
+LDR ambient table     3017/65536       12068/262144   ( 4.6%) 
+HDR ambient table     3017/65536       12068/262144   ( 4.6%) 
+LDR leaf ambient     12184/65536      341152/1835008  (18.6%) 
+HDR leaf ambient     12184/65536      341152/1835008  (18.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18810    ( 0.0%) 
+pakfile               [variable]     1981134/0        ( 0.0%) 
+physics               [variable]      545565/4194304  (13.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14686
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (545959 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 964 texinfos to 744
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5350 faces
+1 degenerate faces
+1002040 square feet [144293840.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+91 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0147 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                466/16384        5592/196608   ( 2.8%) 
+brushsides            3997/163840      31976/1310720  ( 2.4%) 
+planes                4376/65536       87520/1310720  ( 6.7%) 
+vertexes              8305/65536       99660/786432   (12.7%) 
+nodes                 3000/65536       96000/2097152  ( 4.6%) 
+texinfos               744/16384       53568/1179648  ( 4.5%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5350/65536      299600/3670016  ( 8.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2200/65536      123200/3670016  ( 3.4%) 
+leaves                3011/65536       96352/2097152  ( 4.6%) 
+leaffaces             6519/65536       13038/131072   ( 9.9%) 
+leafbrushes           1923/65536        3846/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34775/512000     139100/2048000  ( 6.8%) 
+edges                19221/256000      76884/1024000  ( 7.5%) 
+LDR worldlights         91/8192         8008/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            521/32768        5210/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7995/65536       15990/131072   (12.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6490764/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      133951/393216   (34.1%) 
+LDR ambient table     3011/65536       12044/262144   ( 4.6%) 
+HDR ambient table     3011/65536       12044/262144   ( 4.6%) 
+LDR leaf ambient     12242/65536      342776/1835008  (18.7%) 
+HDR leaf ambient      3011/65536       84308/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/19038    ( 0.0%) 
+pakfile               [variable]      999994/0        ( 0.0%) 
+physics               [variable]      545959/4194304  (13.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14680
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5350 faces
+1 degenerate faces
+1002040 square feet [144293840.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+91 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0150 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                466/16384        5592/196608   ( 2.8%) 
+brushsides            3997/163840      31976/1310720  ( 2.4%) 
+planes                4376/65536       87520/1310720  ( 6.7%) 
+vertexes              8305/65536       99660/786432   (12.7%) 
+nodes                 3000/65536       96000/2097152  ( 4.6%) 
+texinfos               744/16384       53568/1179648  ( 4.5%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5350/65536      299600/3670016  ( 8.2%) 
+hdr faces             5350/65536      299600/3670016  ( 8.2%) 
+origfaces             2200/65536      123200/3670016  ( 3.4%) 
+leaves                3011/65536       96352/2097152  ( 4.6%) 
+leaffaces             6519/65536       13038/131072   ( 9.9%) 
+leafbrushes           1923/65536        3846/131072   ( 2.9%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            34775/512000     139100/2048000  ( 6.8%) 
+edges                19221/256000      76884/1024000  ( 7.5%) 
+LDR worldlights         91/8192         8008/720896   ( 1.1%) 
+HDR worldlights         91/8192         8008/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            521/32768        5210/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          7995/65536       15990/131072   (12.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6490764/0        ( 0.0%) 
+HDR lightdata         [variable]     6490764/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      133951/393216   (34.1%) 
+LDR ambient table     3011/65536       12044/262144   ( 4.6%) 
+HDR ambient table     3011/65536       12044/262144   ( 4.6%) 
+LDR leaf ambient     12242/65536      342776/1835008  (18.7%) 
+HDR leaf ambient     12241/65536      342748/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/19038    ( 0.0%) 
+pakfile               [variable]     2001190/0        ( 0.0%) 
+physics               [variable]      545959/4194304  (13.0%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14680
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (548703 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 762
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0139 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134385/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12269/65536      343532/1835008  (18.7%) 
+HDR leaf ambient      3043/65536       85204/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]      995802/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0147 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces             5408/65536      302848/3670016  ( 8.3%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights         92/8192         8096/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]     6502372/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134385/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12269/65536      343532/1835008  (18.7%) 
+HDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]     1992798/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (548703 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 762
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134385/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient      3043/65536       85204/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]      995802/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0150 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces             5408/65536      302848/3670016  ( 8.3%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights         92/8192         8096/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]     6502372/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134385/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]     1992798/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (548703 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 762
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0142 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134402/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient      3043/65536       85204/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]      995802/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0194 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces             5408/65536      302848/3670016  ( 8.3%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights         92/8192         8096/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]     6502372/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134402/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]     1992798/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (548703 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 762
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0157 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134829/393216   (34.3%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient      3043/65536       85204/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]      995802/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0150 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces             5408/65536      302848/3670016  ( 8.3%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights         92/8192         8096/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]     6502372/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134829/393216   (34.3%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient     12269/65536      343532/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]     1992798/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (548703 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 762
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0139 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134403/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient      3043/65536       85204/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]      995802/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+4 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0150 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4422/65536       88440/1310720  ( 6.7%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces             5408/65536      302848/3670016  ( 8.3%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights         92/8192         8096/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]     6502372/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134403/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]     1992798/0        ( 0.0%) 
+physics               [variable]      548703/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (1520.40 -2083.02 -2801.43) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (548735 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 762
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0137 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4426/65536       88520/1310720  ( 6.8%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134414/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12269/65536      343532/1835008  (18.7%) 
+HDR leaf ambient      3043/65536       85204/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]      995802/0        ( 0.0%) 
+physics               [variable]      548735/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0156 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4426/65536       88520/1310720  ( 6.8%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces             5408/65536      302848/3670016  ( 8.3%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights         92/8192         8096/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]     6502372/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134414/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12269/65536      343532/1835008  (18.7%) 
+HDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]     1992798/0        ( 0.0%) 
+physics               [variable]      548735/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\materials
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity ttt_map_settings (-1155.19 253.41 2369.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1473.5 1406.0 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (1474.0 1406.5 -1580.5)
+Leaf 0 contents: CONTENTS_SOLID CONTENTS_WINDOW CONTENTS_TRANSLUCENT 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_WINDOW 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_WINDOW 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_WINDOW 
+Candidate brush IDs: Brush 54579: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1152.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1664.0 1024.0 -2292.4)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1795.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1591.0 1024.0 -1429.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1079.0 1024.0 -1430.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-1536.0 2048.0 -1926.4)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+material "skybox/rt" not found.
+Can't load skybox file skybox/ to build the default cubemap!
+Can't load skybox file skybox/ to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (0) (548736 bytes)
+Static prop models/props_vehicles/generatortrailer01.mdl outside the map (2836.80, 445.75, -981.53)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 982 texinfos to 762
+Reduced 51 texdatas to 49 (1172 bytes to 1130)
+Writing S:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+1 second elapsed
+
+
+
+16 threads
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+reading s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+LoadPortals: couldn't read s:\repos\ttt_chem_factory\ttt_chem_factory.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0140 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4424/65536       88480/1310720  ( 6.8%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134598/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient      3043/65536       85204/1835008  ( 4.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]      995802/0        ( 0.0%) 
+physics               [variable]      548736/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 1
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+PREP OK
+No vis information, direct lighting only.
+5408 faces
+1 degenerate faces
+1002618 square feet [144377040.00 square inches]
+6 Displacements
+691 Square Feet [99558.47 Square Inches]
+WARNING: light_spot at (1848 1028 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+WARNING: light_spot at (2410 1030 -2132) has outer angle larger than 90 degrees! Clamping to 90...
+92 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0162 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+0...1...2...3...4...5...6...7...8...9...10Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                  10/4096          480/196608   ( 0.2%) 
+brushes                473/16384        5676/196608   ( 2.9%) 
+brushsides            4039/163840      32312/1310720  ( 2.5%) 
+planes                4424/65536       88480/1310720  ( 6.8%) 
+vertexes              8386/65536      100632/786432   (12.8%) 
+nodes                 3032/65536       97024/2097152  ( 4.6%) 
+texinfos               762/16384       54864/1179648  ( 4.7%) 
+texdata                 49/8192         1568/262144   ( 0.6%) 
+dispinfos                6/0            1056/0        ( 0.0%) 
+disp_verts            1734/0           34680/0        ( 0.0%) 
+disp_tris             3072/0            6144/0        ( 0.0%) 
+disp_lmsamples        2724/0            2724/0        ( 0.0%) 
+faces                 5408/65536      302848/3670016  ( 8.3%) 
+hdr faces             5408/65536      302848/3670016  ( 8.3%) 
+origfaces             2237/65536      125272/3670016  ( 3.4%) 
+leaves                3043/65536       97376/2097152  ( 4.6%) 
+leaffaces             6584/65536       13168/131072   (10.0%) 
+leafbrushes           1935/65536        3870/131072   ( 3.0%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges            35201/512000     140804/2048000  ( 6.9%) 
+edges                19449/256000      77796/1024000  ( 7.6%) 
+LDR worldlights         92/8192         8096/720896   ( 1.1%) 
+HDR worldlights         92/8192         8096/720896   ( 1.1%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            524/32768        5240/327680   ( 1.6%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          8073/65536       16146/131072   (12.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/8192            0/2883584  ( 0.0%) 
+LDR lightdata         [variable]     6502372/0        ( 0.0%) 
+HDR lightdata         [variable]     6502372/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      134598/393216   (34.2%) 
+LDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+HDR ambient table     3043/65536       12172/262144   ( 4.6%) 
+LDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+HDR leaf ambient     12270/65536      343560/1835008  (18.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/18966    ( 0.0%) 
+pakfile               [variable]     1992798/0        ( 0.0%) 
+physics               [variable]      548736/4194304  (13.1%) 
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 3
+
+Total triangle count: 14842
+Writing s:\repos\ttt_chem_factory\ttt_chem_factory.bsp
+5 seconds elapsed

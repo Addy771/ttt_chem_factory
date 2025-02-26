@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10273"
-	"mapversion" "50"
+	"mapversion" "51"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "5"
-	"mapversion" "7"
+	"mapversion" "1"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -5689,7 +5689,7 @@ world
 		side
 		{
 			"id" "1130"
-			"plane" "(-1088 610 -2544) (-1088 -2004 -2544) (-1088 -2004 -2546)"
+			"plane" "(-1088 610 -2544) (-1088 -2004 -2544) (-1088 -2004 -2552)"
 			"material" "CONCRETE/CONCRETEWALL019A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5700,7 +5700,7 @@ world
 		side
 		{
 			"id" "1129"
-			"plane" "(-592 610 -2546) (-592 -2004 -2546) (-592 -2004 -2544)"
+			"plane" "(-592 610 -2552) (-592 -2004 -2552) (-592 -2004 -2544)"
 			"material" "CONCRETE/CONCRETEWALL019A"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -5711,7 +5711,7 @@ world
 		side
 		{
 			"id" "1128"
-			"plane" "(-1088 -2004 -2546) (-1088 -2004 -2544) (-592 -2004 -2544)"
+			"plane" "(-1088 -2004 -2552) (-1088 -2004 -2544) (-592 -2004 -2544)"
 			"material" "CONCRETE/CONCRETEFLOOR011A"
 			"uaxis" "[1 0 0 0] 1"
 			"vaxis" "[0 0 -1 0] 1"
@@ -5722,7 +5722,7 @@ world
 		side
 		{
 			"id" "1127"
-			"plane" "(-1088 610 -2546) (-1088 -2004 -2546) (-592 -2004 -2546)"
+			"plane" "(-1088 610 -2552) (-1088 -2004 -2552) (-592 -2004 -2552)"
 			"material" "CONCRETE/CONCRETEWALL019A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -5733,7 +5733,7 @@ world
 		side
 		{
 			"id" "1126"
-			"plane" "(-592 610 -2546) (-592 610 -2544) (-1088 610 -2544)"
+			"plane" "(-592 610 -2552) (-592 610 -2544) (-1088 610 -2544)"
 			"material" "TILE/TILEFLOOR005A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -7644,56 +7644,6 @@ world
 		editor
 		{
 			"color" "0 188 141"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "13937"
-		editor
-		{
-			"color" "168 253 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "13946"
-		editor
-		{
-			"color" "234 155 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "13956"
-		editor
-		{
-			"color" "234 155 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "13965"
-		editor
-		{
-			"color" "234 155 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "13974"
-		editor
-		{
-			"color" "234 155 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
