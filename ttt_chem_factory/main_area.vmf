@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "10273"
-	"mapversion" "394"
+	"mapversion" "395"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "16"
+	"mapversion" "2"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -6192,7 +6192,7 @@ world
 		side
 		{
 			"id" "16237"
-			"plane" "(-325 400 -2223.5) (-325 1888 -2223.5) (-325 1888 -2083)"
+			"plane" "(-325 190 -2223.5) (-325 1888 -2223.5) (-325 1888 -2083)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[0 1 0 0] 1"
 			"vaxis" "[0 0 -1 -151] 1"
@@ -6214,7 +6214,7 @@ world
 		side
 		{
 			"id" "16235"
-			"plane" "(-309.578 1888 -2083) (-309.578 1888 -2223.5) (-309.578 400 -2223.5)"
+			"plane" "(-309.578 1888 -2083) (-309.578 1888 -2223.5) (-309.578 190 -2223.5)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[0 1 0 0] 1"
 			"vaxis" "[0 0 -1 -151] 1"
@@ -6225,7 +6225,7 @@ world
 		side
 		{
 			"id" "16234"
-			"plane" "(-325 400 -2083) (-325 1888 -2083) (-309.578 1888 -2083)"
+			"plane" "(-325 190 -2083) (-325 1888 -2083) (-309.578 1888 -2083)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -6236,7 +6236,7 @@ world
 		side
 		{
 			"id" "16233"
-			"plane" "(-309.578 1888 -2223.5) (-325 1888 -2223.5) (-325 400 -2223.5)"
+			"plane" "(-309.578 1888 -2223.5) (-325 1888 -2223.5) (-325 190 -2223.5)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
@@ -6247,7 +6247,7 @@ world
 		side
 		{
 			"id" "16232"
-			"plane" "(-309.578 400 -2083) (-309.578 400 -2223.5) (-325 400 -2223.5)"
+			"plane" "(-309.578 190 -2083) (-309.578 190 -2223.5) (-325 190 -2223.5)"
 			"material" "CONCRETE/CONCRETEWALL001A"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
@@ -25992,7 +25992,7 @@ entity
 	"gmod_allowphysgun" "1"
 	"health" "5"
 	"lowerleft" "-318 -96 -2223"
-	"lowerright" "-318 400 -2223"
+	"lowerright" "-318 190 -2223"
 	"material" "0"
 	"modelscale" "1.0"
 	"nodamageforces" "0"
@@ -26007,14 +26007,14 @@ entity
 	"spawnobject" "0"
 	"surfacetype" "0"
 	"upperleft" "-318 -96 -2082"
-	"upperright" "-318 400 -2082"
+	"upperright" "-318 190 -2082"
 	solid
 	{
 		"id" "103510"
 		side
 		{
 			"id" "17634"
-			"plane" "(-318 -96 -2082) (-318 400 -2082) (-317 400 -2082)"
+			"plane" "(-318 -96 -2082) (-318 190 -2082) (-317 190 -2082)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 60] 0.25"
 			"vaxis" "[0 -1 0 32] 0.25"
@@ -26025,7 +26025,7 @@ entity
 		side
 		{
 			"id" "17633"
-			"plane" "(-318 400 -2223) (-318 -96 -2223) (-317 -96 -2223)"
+			"plane" "(-318 190 -2223) (-318 -96 -2223) (-317 -96 -2223)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 60] 0.25"
 			"vaxis" "[0 -1 0 32] 0.25"
@@ -26036,7 +26036,7 @@ entity
 		side
 		{
 			"id" "17632"
-			"plane" "(-318 -96 -2223) (-318 400 -2223) (-318 400 -2082)"
+			"plane" "(-318 -96 -2223) (-318 190 -2223) (-318 190 -2082)"
 			"material" "GLASS/GLASSWINDOWBREAK070A"
 			"uaxis" "[0 1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 -330] 0.25"
@@ -26047,7 +26047,7 @@ entity
 		side
 		{
 			"id" "17631"
-			"plane" "(-317 400 -2223) (-317 -96 -2223) (-317 -96 -2082)"
+			"plane" "(-317 190 -2223) (-317 -96 -2223) (-317 -96 -2082)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[0 1 0 -32] 0.25"
 			"vaxis" "[0 0 -1 -10] 0.25"
@@ -26058,7 +26058,7 @@ entity
 		side
 		{
 			"id" "17630"
-			"plane" "(-318 400 -2223) (-317 400 -2223) (-317 400 -2082)"
+			"plane" "(-318 190 -2223) (-317 190 -2223) (-317 190 -2082)"
 			"material" "TOOLS/TOOLSNODRAW"
 			"uaxis" "[1 0 0 60] 0.25"
 			"vaxis" "[0 0 -1 -10] 0.25"
