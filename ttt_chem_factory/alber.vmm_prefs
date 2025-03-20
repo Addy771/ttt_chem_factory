@@ -3,6 +3,7 @@ Maps
 	VMF
 	{
 		"InternalID" "2"
+		"IsPrimary" "1"
 	}
 	VMF
 	{
@@ -23,15 +24,12 @@ Maps
 	VMF
 	{
 		"InternalID" "7"
-		"IsPrimary" "1"
 	}
 }
 cordoning
 {
-	cordon
+	cordons
 	{
-		"mins" "(-1024 -1024 -1024)"
-		"maxs" "(1024 1024 1024)"
 		"active" "0"
 	}
 }
